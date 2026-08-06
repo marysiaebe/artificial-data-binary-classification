@@ -55,8 +55,12 @@ The best-performing solution combined:
 
 Cross-validation achieved a mean **Balanced Accuracy of approximately 0.87**, outperforming the baseline model.
 
+
+
 ---
 
+## Project Status
+Completed as a part of a Machine Learning course and published as a portfolio project.
 ## Author
 
 Maria Eberhardt
