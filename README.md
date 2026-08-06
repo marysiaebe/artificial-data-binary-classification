@@ -74,4 +74,3 @@ artificial-data-binary-classification/
 
 Maria Eberhardt
 
-Machine Learning | Data Analytics | Python
