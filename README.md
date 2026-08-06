@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project presents a binary classification solution developed as part of a Machine Learning course. The objective was to build a predictive model with the highest possible balanced accuracy using an artificially generated dataset containing informative features hidden among a large number of irrelevant variables.
+This project implements a binary classification pipeline developed as part of a university Machine Learning course. The objective was to build a predictive model with the highest possible balanced accuracy using an artificially generated dataset containing informative features hidden among a large number of irrelevant variables.
 
 The project follows a complete machine learning workflow, including data validation, feature selection, model comparison, hyperparameter optimization and final prediction generation.
 
@@ -30,37 +30,39 @@ The main goal was to identify the most informative features and develop a classi
 
 The project was completed using the following workflow:
 
-1. Data validation and quality checks
-2. Baseline Logistic Regression model
-3. Feature selection using Random Forest feature importance
-4. Comparison of multiple classification algorithms:
-   - Logistic Regression
-   - Random Forest
-   - Gradient Boosting
-5. Hyperparameter tuning using GridSearchCV
-6. Stratified 5-fold Cross Validation
+1. Data validation
+2. Baseline model development
+3. Feature selection using Random Forest
+4. Model comparison
+5. Hyperparameter optimization with GridSearchCV
+6. Stratified 5-fold cross-validation
 7. Final model training and prediction
 
 The preprocessing and modeling steps were implemented using a single Scikit-learn Pipeline to ensure consistent data processing and prevent data leakage.
 
 ---
-
 ## Results
 
-The best-performing solution combined:
+The final model combined Random Forest-based feature selection with a Random Forest classifier optimized using GridSearchCV.
 
-- Random Forest feature selection
-- Random Forest classifier
-- Hyperparameter optimization using GridSearchCV
+The selected approach achieved a mean cross-validation **Balanced Accuracy of 0.871**, substantially improving upon the baseline Logistic Regression model.
 
-Cross-validation achieved a mean **Balanced Accuracy of approximately 0.87**, outperforming the baseline model.
+---
+## Technologies
 
-
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
 ---
 
 ## Project Status
-Completed as a part of a Machine Learning course and published as a portfolio project.
+Completed as a part of a university Machine Learning course and published as a portfolio project.
+
+---
 ## Author
 
 Maria Eberhardt
