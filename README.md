@@ -57,19 +57,6 @@ Cross-validation achieved a mean **Balanced Accuracy of approximately 0.87**, ou
 
 ---
 
-
-## Repository Structure
-
-```
-artificial-data-binary-classification/
-│
-├── notebook.ipynb
-├── report.pdf
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
 ## Author
 
 Maria Eberhardt
